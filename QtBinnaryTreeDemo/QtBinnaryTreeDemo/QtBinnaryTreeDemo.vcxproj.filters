@@ -33,22 +33,42 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QtBinnaryTreeDemo.cpp">
+    <ClCompile Include="QtBinaryTreeDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintArea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="QtBinnaryTreeDemo.h">
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QtBinaryTreeDemo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSerialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtBinaryTreeDemo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="PaintArea.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="QtBinnaryTreeDemo.ui">
+    <QtUic Include="QtBinaryTreeDemo.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="QtBinnaryTreeDemo.qrc">
+    <QtRcc Include="QtBinaryTreeDemo.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
   </ItemGroup>

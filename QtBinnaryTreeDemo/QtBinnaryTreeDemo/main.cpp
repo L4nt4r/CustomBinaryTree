@@ -1,10 +1,10 @@
-#include "QtBinnaryTreeDemo.h"
+#include "QtBinaryTreeDemo.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
-	QtBinnaryTreeDemo w;
+	QtBinaryTreeDemo w;
 	w.show();
 	return a.exec();
 }
